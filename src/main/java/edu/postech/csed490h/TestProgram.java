@@ -1,10 +1,11 @@
-package test;
+package edu.postech.csed490h;
 
 public class TestProgram {
     public static void main(String[] args) {
         // 1. Initialize check cards for three individuals (A, B, C) with initial balances
         CheckCard[] cards = new CheckCard[3];
         cards[0] = new CheckCard("A", "Bank Woori", 2024, 5000);
+        cards[1] = new CheckCard("B", "Bank Woori", 2024, 5000);
         cards[2] = new CheckCard("C", "Bank Woori", 2026, 0);
 
         // 2. Print the overall status of all three credit cards
